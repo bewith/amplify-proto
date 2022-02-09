@@ -3,8 +3,9 @@ import Link from 'next/link'
 
 const Page: NextPage = () => {
   return (
-    <div >Hoge
-<Link href="/">戻る</Link>
+    <div>
+      Hoge
+      <Link href="/">戻る</Link>
     </div>
   )
 }
