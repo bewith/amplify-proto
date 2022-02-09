@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-proto-dev-130408-authRole",
-      "UnauthRoleArn": "arn:aws:iam::970041728276:role/amplify-proto-dev-130408-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::970041728276:role/amplify-proto-dev-130408-authRole",
-      "Region": "ap-northeast-1",
-      "DeploymentBucketName": "amplify-proto-dev-130408-deployment",
-      "UnauthRoleName": "amplify-proto-dev-130408-unauthRole",
-      "StackName": "amplify-proto-dev-130408",
-      "StackId": "arn:aws:cloudformation:ap-northeast-1:970041728276:stack/amplify-proto-dev-130408/56c7eef0-895d-11ec-9124-0ad44edc2acb",
-      "AmplifyAppId": "d2t6w5fzhfwkh"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-proto-dev-130408-authRole",
+            "UnauthRoleArn": "arn:aws:iam::970041728276:role/amplify-proto-dev-130408-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::970041728276:role/amplify-proto-dev-130408-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-proto-dev-130408-deployment",
+            "UnauthRoleName": "amplify-proto-dev-130408-unauthRole",
+            "StackName": "amplify-proto-dev-130408",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:970041728276:stack/amplify-proto-dev-130408/56c7eef0-895d-11ec-9124-0ad44edc2acb",
+            "AmplifyAppId": "d2t6w5fzhfwkh"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2t6w5fzhfwkh",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
