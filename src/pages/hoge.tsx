@@ -1,13 +1,19 @@
-import type { NextPage } from 'next'
-import Link from 'next/link'
+import { withAuthenticator } from '@aws-amplify/ui-react'
+// eslint-disable-next-line import/no-unresolved
+import '@aws-amplify/ui-react/styles.css'
+import { useEffect } from 'react'
 
-const Page: NextPage = () => {
+const Page = ({ signOut, user }: any) => {
+  useEffect(() => {
+    console.log('hoge')
+  }, [])
+
   return (
-    <div>
-      Hoge
-      <Link href="/">戻る</Link>
-    </div>
+    <>
+      <h1>Hello {user.username}</h1>
+      <button onClick={signOut}>Sign out</button>
+    </>
   )
 }
 
-export default Page
+export default withAuthenticator(Page)
