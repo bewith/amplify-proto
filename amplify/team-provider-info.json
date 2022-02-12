@@ -10,6 +10,17 @@
       "StackName": "amplify-proto-dev-152512",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:970041728276:stack/amplify-proto-dev-152512/8a5331a0-8bcc-11ec-ac63-0a4302029ad7",
       "AmplifyAppId": "d26lyki55c0034"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d26lyki55c0034",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "protof7e5b750": {}
+      }
     }
   }
 }
